@@ -17,5 +17,5 @@ object Implicits {
   /**
    * The default Diffbot API to use, v2.
    */
-  implicit val version: Version = Version.v2
+  implicit val version: Version = Version.v3
 }

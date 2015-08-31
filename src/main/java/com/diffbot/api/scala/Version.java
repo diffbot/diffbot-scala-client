@@ -13,5 +13,9 @@ public enum Version {
 	/**
 	 * Version 2.
 	 */
-	v2
+	v2,
+	/**
+	 * Version 3.
+	 */
+	v3
 }
