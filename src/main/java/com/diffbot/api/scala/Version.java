@@ -5,13 +5,19 @@ package com.diffbot.api.scala;
  */
 public enum Version {
 	/**
-	 * Version 1, please use {@link Version#v2} instead.
-	 * @deprecated Use {@link Version#v2} instead.
+	 * Version 1, please use {@link Version#v3} instead.
+	 * @deprecated Use {@link Version#v3} instead.
 	 */
 	@Deprecated
 	v1,
 	/**
-	 * Version 2.
+	 * Version 2, please use {@link Version#v3} instead.
+	 * @deprecated Use {@link Version#v3} instead.
 	 */
-	v2
+	@Deprecated
+	v2,
+	/**
+	 * Version 3.
+	 */
+	v3
 }
