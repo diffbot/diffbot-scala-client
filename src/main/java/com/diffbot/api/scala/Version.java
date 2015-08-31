@@ -11,8 +11,10 @@ public enum Version {
 	@Deprecated
 	v1,
 	/**
-	 * Version 2.
+	 * Version 2, please use {@link Version#v3} instead.
+	 * @deprecated Use {@link Version#v3} instead.
 	 */
+	@Deprecated
 	v2,
 	/**
 	 * Version 3.
