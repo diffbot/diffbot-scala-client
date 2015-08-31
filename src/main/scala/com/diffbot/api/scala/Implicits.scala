@@ -15,7 +15,7 @@ object Implicits {
   implicit val timeout: DiffbotTimeout = DiffbotTimeout(125.seconds)
 
   /**
-   * The default Diffbot API to use, v2.
+   * The default Diffbot API to use, v3.
    */
   implicit val version: Version = Version.v3
 }
