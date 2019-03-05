@@ -17,7 +17,7 @@ import java.net.URLEncoder
  * This object handles the calls to different Diffbot services.
  */
 object Diffbot {
-  private[this] val apiBase = "http://api.diffbot.com"
+  private[this] val apiBase = "https://api.diffbot.com"
 
   /**
    * Calls the Diffbot service with the specified parameters.
